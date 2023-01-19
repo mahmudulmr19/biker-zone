@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Go Ride</title>
+    <link
+      rel="shortcut icon"
+      href="images/icons/motorbike.svg"
+      type="image/x-icon"
+    />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- script -->
+    <script src="js/app.js"></script>
+    <script src="js/font.js"></script>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="container-lg">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold fs-4" href="#">Go Ride</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-2">
+              <li class="nav-item">
+                <a
+                  class="nav-link active fw-medium"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-black fw-medium" href="#">Shop</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-black fw-medium" href="#">News</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-black fw-medium" href="#">Contact</a>
+              </li>
+
+              <button class="btn ms-0 ms-lg-5 fw-medium login-nf btn-primary">
+                Login
+              </button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- slide  -->
+      <div id="carouselExample" class="carousel slide mt-3">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row bg-primary p-5 rounded-4">
+              <div
+                class="col-12 col-md-6 d-flex align-items-center justify-content-center"
+              >
+                <div>
+                  <h1 class="fw-bold">Ride-on R15 V4 with Smile</h1>
+                  <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia consequat duis enim velit
+                    mollit.
+                  </p>
+                  <div class="btn btn-primary">Purchase</div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <img
+                  src="images/bike-1.png"
+                  class="d-block w-100"
+                  alt="bike1"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row bg-primary p-5 rounded-4">
+              <div
+                class="col-12 col-md-6 d-flex align-items-center justify-content-center"
+              >
+                <div>
+                  <h1 class="fw-bold">Ride-on R15 V4 with Smile</h1>
+                  <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia consequat duis enim velit
+                    mollit.
+                  </p>
+                  <div class="btn btn-primary">Purchase</div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <img
+                  src="images/bike-2.png"
+                  class="d-block w-100"
+                  alt="bike1"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row bg-primary p-5 rounded-4">
+              <div
+                class="col-12 col-md-6 d-flex align-items-center justify-content-center"
+              >
+                <div>
+                  <h1 class="fw-bold">Ride-on R15 V4 with Smile</h1>
+                  <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia consequat duis enim velit
+                    mollit.
+                  </p>
+                  <div class="btn btn-primary">Purchase</div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <img
+                  src="images/bike-3.png"
+                  class="d-block w-100"
+                  alt="bike1"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main class="container-lg">
+      <!-- feature section -->
+
+      <section class="mt-5 p-3">
+        <h1 class="text-center fw-semibold">Featured Bikes In This Year</h1>
+        <p class="text-center text-primary">Best bike collection</p>
+        <hr class="w-25 mx-auto text-primary" />
+
+        <div class="row g-5 row-cols-1 row-cols-sm-2 row-cols-md-3 mt-3">
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="images/feature-bike.jpg"
+              alt="feature bike"
+            />
+          </div>
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="images/feature-bike.jpg"
+              alt="feature bike"
+            />
+          </div>
+          <div class="col">
+            <img
+              class="img-fluid"
+              src="images/feature-bike.jpg"
+              alt="feature bike"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- latest News section -->
+      <section class="mt-5">
+        <h1 class="text-center fw-semibold">latest News</h1>
+        <div class="row mt-4 row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-auto p-3">
+              <img src="images/bike-1.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Ducati XDIAVEL S-73</h5>
+                <p class="card-text">
+                  This card has supporting text below as a natural lead-in to
+                  additional content.
+                </p>
+                <button class="btn btn-outline-primary">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-auto p-3">
+              <img src="images/bike-2.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Motorcycles & Scooters</h5>
+                <p class="card-text">
+                  This card has supporting text below as a natural lead-in to
+                  additional content.
+                </p>
+                <button class="btn btn-outline-primary">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-auto p-3">
+              <img src="images/bike-3.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">2021 Honda CBR500R</h5>
+                <p class="card-text">
+                  This card has supporting text below as a natural lead-in to
+                  additional content.
+                </p>
+                <button class="btn btn-outline-primary">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Happy Clients says -->
+
+      <section class="mt-5">
+        <h1 class="fw-medium text-center">
+          Happy <span class="text-primary">Clients says</span>
+        </h1>
+
+        <div class="row row-cols-1 mt-4 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="p-3 card h-auto">
+              <img
+                src="images/user-1.png"
+                class="card-img-top w-50 mx-auto"
+                alt="users"
+              />
+              <div class="card-body">
+                <p class="card-text text-center">
+                  Slate helps you see how many more days you need to work to
+                  reach your financial goal for the month and year.
+                </p>
+                <p class="text-center text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 card h-auto">
+              <img
+                src="images/user-2.png"
+                class="card-img-top w-50 mx-auto"
+                alt="users"
+              />
+              <div class="card-body">
+                <p class="card-text text-center">
+                  Slate helps you see how many more days you need to work to
+                  reach your financial goal for the month and year.
+                </p>
+                <p class="text-center text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="p-3 card h-auto">
+              <img
+                src="images/user-3.png"
+                class="card-img-top w-50 mx-auto"
+                alt="users"
+              />
+              <div class="card-body">
+                <p class="card-text text-center">
+                  Slate helps you see how many more days you need to work to
+                  reach your financial goal for the month and year.
+                </p>
+                <p class="text-center text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Frequently Asked Questions -->
+      <section class="mt-5">
+        <h1 class="my-5 text-center fw-semibold">
+          Frequently Asked <span class="text-primary">Questions</span>
+        </h1>
+
+        <div
+          class="row row-cols-1 row-cols-md-2 mt-5 align-items-center p-3 g-4"
+        >
+          <div class="col text-center">
+            <img class="w-75" src="images/faq.svg" alt="Frequently img" />
+          </div>
+          <div class="col">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    What are the most important things I should know about
+                    riding a bike?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Safety First! Always obey the rules of the road. Obey all
+                    traffic signals, signs, and laws. Get in the mindset of
+                    “driving” your bike—not just “riding” your bike. This will
+                    help you be a more focused and legally compliant bike rider.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    How can I tell if my helmet is old and I need a new one?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Safety First! Always obey the rules of the road. Obey all
+                    traffic signals, signs, and laws. Get in the mindset of
+                    “driving” your bike—not just “riding” your bike. This will
+                    help you be a more focused and legally compliant bike rider.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    My bike has been in storage is it safe to ride?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Safety First! Always obey the rules of the road. Obey all
+                    traffic signals, signs, and laws. Get in the mindset of
+                    “driving” your bike—not just “riding” your bike. This will
+                    help you be a more focused and legally compliant bike rider.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    What rules should I follow when riding my bike?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Safety First! Always obey the rules of the road. Obey all
+                    traffic signals, signs, and laws. Get in the mindset of
+                    “driving” your bike—not just “riding” your bike. This will
+                    help you be a more focused and legally compliant bike rider.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Small Device footer -->
+
+    <div class="footer d-md-none bg-black h-auto text-white p-3">
+      <h4 class="fw-semibold mt-2">Get the App</h4>
+      <div class="d-flex dhj flex-column">
+        <img class="app" src="images/android.png" alt="" />
+        <img class="app" src="images/ios.png" alt="" />
+      </div>
+
+      <p class="text-center mt-4 mb-0">© 2020 bike. All rights reserved</p>
+    </div>
+
+    <!-- Large Device footer -->
+    <footer
+      class="bg-black d-none d-md-flex p-5 text-white flex-column flex-md-row"
+    >
+      <div>
+        <p>© 2020 bike. All rights reserved</p>
+      </div>
+      <div>
+        <span class="fw-semibold mb-3">Get the App</span>
+        <div class="app-link">
+          <img class="app" src="images/android.png" alt="" />
+          <img class="app" src="images/ios.png" alt="" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
